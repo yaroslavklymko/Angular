@@ -3,7 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
-  const title: string = 'My First Angular App';
+  const title = 'My First Angular App';
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({

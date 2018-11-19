@@ -3,7 +3,7 @@ import { AppPage } from './app.po';
 describe('workspace-project App', () => {
   let page: AppPage;
 
-  const title: string = 'My First Angular App';
+  const title = 'My First Angular App';
 
   beforeEach(() => {
     page = new AppPage();
