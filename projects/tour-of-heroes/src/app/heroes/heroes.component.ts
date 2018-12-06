@@ -11,18 +11,12 @@ export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
 
-  selectedHero: Hero;
-
   constructor(private heroService: HeroService) {
     // heroService gets initialized by Dependency Injection System with the singleton HeroService object
    }
 
   ngOnInit() {
     this.getHeroes();
-  }
-
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
   }
 
   getHeroes(): void {
